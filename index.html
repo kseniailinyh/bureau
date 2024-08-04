@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Bureau</title>
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/page-layout.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/navigation.css" />
+  <link rel="stylesheet" href="./css/section.css" />
+  <link rel="stylesheet" href="./css/sidebar.css" />
+  <link rel="stylesheet" href="./css/typography.css" />
+  <link rel="stylesheet" href="./css/users-list.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;1,400;1,600&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link rel='shortcut icon' href='images/favicon.ico'>
+</head>
+
+<body>
+  <div class="page-layout">
+    <aside class="page-layout__sidebar sidebar">
+      <a href="#hello">
+        <img class="sidebar__logo" src="./images/logo.svg" alt="Kontur" />
+      </a>
+
+      <nav class="sidebar__navigation" data-navigation></nav>
+
+      <p class="sidebar__help">
+        In&nbsp;any unclear situation, write to&nbsp;<a href="mailto:ksenia_ilinyh@skbkontur.ru">Ksenia</a>
+      </p>
+    </aside>
+
+    <main class="page-layout__content main">
+
+
+      <!-- Main Section -->
+      <section class="section" id="hello">
+        <h1 class="site-name">Design</span><br>Bureau</h1>
+        <h2 class="hidden">Design Bureau</h2>
+        <p class="lead">We&nbsp;design user interfaces<br>and&nbsp;support teams<br>without designers</p>
+
+        <img class="image" src="./images/hello.svg" alt="" />
+      </section>
+
+
+      <!-- Who Benefits from the Bureau -->
+      <section class="section" id="users">
+        <h2 class="heading">For whom the Bureau works</h2>
+
+        <div class="users-list">
+          <p class="users-list__item">
+            Product teams with&nbsp;fewer than&nbsp;4&nbsp;developers
+          </p>
+          <p class="users-list__item">
+            Product teams that&nbsp;need a part-time designer
+          </p>
+          <p class="users-list__item">
+            Startups to&nbsp;test hypotheses
+          </p>
+        </div>
+
+        <h3 class="heading-example">
+          For example
+        </h3>
+
+        <p class="text-medium">
+          A&nbsp;startup is&nbsp;testing a&nbsp;hypothesis and&nbsp;doesn’t need a&nbsp;full-time designer yet. The&nbsp;startup contacts the&nbsp;Bureau, and&nbsp;one of&nbsp;our designers spends 30% of&nbsp;their work time on&nbsp;the task. The&nbsp;startup manager doesn’t need to&nbsp;hire, onboard, or&nbsp;manage a&nbsp;designer, or&nbsp;provide tasks and evaluations. They&nbsp;get a&nbsp;completed task just as&nbsp;if it&nbsp;were done by&nbsp;a&nbsp;designer in-house.
+        </p>
+
+        <img class="image" src="./images/users.svg" alt="" />
+      </section>
+
+
+      <!-- Who Pays -->
+      <section class="section" id="money">
+        <h2 class="heading">Who Pays</h2>
+
+        <p class="text-medium">
+          The&nbsp;Bureau doesn’t have its&nbsp;own salary budget, so&nbsp;you&nbsp;need to&nbsp;allocate funds for&nbsp;the task.
+          At&nbsp;the end of&nbsp;each month, we&nbsp;distribute the&nbsp;salary costs of&nbsp;our designers among the&nbsp;projects they&nbsp;worked on.
+        </p>
+
+        <img class="image" src="./images/money.svg" alt="" />
+      </section>
+
+
+      <!-- What Tasks We Take On -->
+      <section class="section" id="tasks">
+        <h2 class="heading">What Tasks We&nbsp;Take On</h2>
+
+        <p class="text-medium">
+          Anything related to&nbsp;UI design.
+          Anything that&nbsp;users will interact with.
+          For&nbsp;example, designing a&nbsp;feature in&nbsp;a&nbsp;product or&nbsp;creating a&nbsp;clickable prototype to&nbsp;test a&nbsp;hypothesis.
+        </p>
+
+        <h3 class="heading-example">
+          We&nbsp;Don’t Do
+        </h3>
+
+        <ul class="list">
+          <li class="list__item">websites and&nbsp;landing pages&nbsp;— web-studio does&nbsp;it better</li>
+          <li class="list__item">illustrations, banners, brand styles, logos&nbsp;— these are better handled by&nbsp;communication designers</li>
+          <li class="list__item">user research, usability testing&nbsp;– no&nbsp;one does it better than&nbsp;Emilia and&nbsp;the UX-lab</li>
+          <li class="list__item">development and&nbsp;coding. The&nbsp;Rangers can help with&nbsp;that</li>
+        </ul>
+
+        <img class="image" src="./images/tasks.svg" alt="" />
+      </section>
+
+
+      <!-- How to Assign a Task -->
+      <section class="section" id="give">
+        <h2 class="heading">How to&nbsp;Assign a&nbsp;Task</h2>
+
+        <p class="text-medium">
+          Email&nbsp;Ksenia Ilinykh&nbsp;with answers to&nbsp;these questions:
+        </p>
+        <br>
+        <ol class="num-list">
+          <li class="num-list__item">Project code for&nbsp;allocating salary costs.</li>
+          <li class="num-list__item">What needs to&nbsp;be&nbsp;done? What problems in&nbsp;the product need solving?</li>
+          <li class="num-list__item">Why is&nbsp;this task necessary? What happens if&nbsp;it’s not done?</li>
+          <li class="num-list__item">Task scope. Try to&nbsp;estimate the&nbsp;designer's effort (in&nbsp;days/weeks/months).</li>
+          <li class="num-list__item">What is&nbsp;ready for&nbsp;design? How complete is&nbsp;the task analysis? Were there any research, usability tests, surveys, or&nbsp;user feedback?</li>
+          <li class="num-list__item">Does the&nbsp;task have an&nbsp;external deadline? What dictates this deadline? What happens if&nbsp;you miss it?</li>
+        </ol>
+
+        <br>
+        <p class="text-medium">
+          We&nbsp;will discuss the&nbsp;task within the&nbsp;Bureau, and&nbsp;I&nbsp;will write back to&nbsp;you about who and&nbsp;when can handle it. You&nbsp;will then communicate directly with&nbsp;the designer.
+        </p>
+
+        <img class="image" src="./images/give.svg" alt="" />
+      </section>
+
+
+      <!-- When We Take on a Task -->
+      <section class="section" id="when">
+        <h2 class="heading">When We&nbsp;Take on&nbsp;a&nbsp;Task</h2>
+
+        <p class="text-medium">
+          Usually, all&nbsp;Bureau designers are busy with&nbsp;current tasks, so&nbsp;we&nbsp;won’t be&nbsp;able to&nbsp;take on&nbsp;a&nbsp;new task immediately.
+          Come to&nbsp;us in&nbsp;advance: a&nbsp;few weeks or&nbsp;a&nbsp;month ahead, and&nbsp;we&nbsp;will plan everything.
+          If&nbsp;you have an&nbsp;urgent small task, write to&nbsp;us, and&nbsp;maybe we&nbsp;can figure something out.
+        </p>
+
+        <img class="image" src="./images/when.svg" alt="" />
+      </section>
+
+
+      <!-- How We Work on a Task -->
+      <section class="section" id="process">
+        <h2 class="heading">How We&nbsp;Work on&nbsp;a&nbsp;Task</h2>
+
+        <p class="text-medium">
+          At&nbsp;the first meeting, you&nbsp;meet with&nbsp;the designer and&nbsp;discuss the&nbsp;task. After that, the&nbsp;designer may have questions, which are discussed via&nbsp;email, chat, or&nbsp;in&nbsp;another meeting. The&nbsp;designer will inform you&nbsp;when the&nbsp;next check-in will be: this is&nbsp;where the&nbsp;conceptual solution is&nbsp;discussed. At&nbsp;the next check-in, the&nbsp;details are discussed.
+          <br><br>
+          There can be&nbsp;many such check-ins, depending on&nbsp;the task, but&nbsp;the iterations happen closely together.
+          <br><br>
+          When the&nbsp;designer finishes the&nbsp;design, they&nbsp;organize a&nbsp;presentation. Usually, this is&nbsp;a&nbsp;meeting where they&nbsp;talk about the&nbsp;task and&nbsp;solution, showing what was&nbsp;achieved. Developers can be&nbsp;invited to&nbsp;this meeting.
+        </p>
+
+        <h3 class="heading-example">
+            That’s not&nbsp;all
+        </h3>
+
+        <p class="text-medium">
+          After the&nbsp;task is&nbsp;handed over to&nbsp;development, the&nbsp;designer’s work doesn’t end. During development, design questions may arise, or&nbsp;details may be&nbsp;discovered that weren’t evident at&nbsp;the start. This is&nbsp;normal, and&nbsp;therefore Bureau designers support tasks during development: answering questions and&nbsp;refining details if&nbsp;necessary.
+          <br><br>
+          We&nbsp;also want to&nbsp;control the&nbsp;result. The&nbsp;designer’s responsibility&nbsp;is a&nbsp;working product, not&nbsp;just pretty images. During the&nbsp;QA phase, involve the&nbsp;designer to&nbsp;review the&nbsp;implementation and&nbsp;ensure everything is&nbsp;good.
+        </p>
+
+        <img class="image" src="./images/process.svg" alt="" />
+      </section>
+    </main>
+  </div>
+
+  <script src="./js/navigation.js"></script>
+</body>
+
+</html>
